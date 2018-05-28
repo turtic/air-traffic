@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+
+#root {
+  background-image: url("../assets/igor-ovsyannykov-unsplash.jpg");
+  background-size: cover;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+  height: 150px;
+  padding: 20px;
+  color: white;
+  border-bottom: 5px solid #006bec;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  margin-bottom: 10%;
+}
+
+.understand-button {
+  border: 2px solid #3281d1;
+  padding: 11px;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 5px;
+ 
+}
+
+.understand-button:hover {
+  background-color: #3281d1;
+  color: white;
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+.flight-item {
+  width: 50%;
+  margin: 5px auto;
+  text-align: left;
+  border: 2px solid #1206455e;
+  padding: 12px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.single {
+  border: 2px solid #120645;
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+}
+
+a .flight-item:hover {
+  border: 2px solid #120645;
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+}
+
+.flight-item img {
+  float: left;
+  margin-right: 25px;
+  width: 100px;
+  height: 100px;
+}
+
+p  {
+  color: #0059c5;
+}
+
+a {
+  text-decoration: none;  
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) and (max-width: 767.98px) { 
+
+  .flight-item img {
+    float: none;
+    margin-right:0px;
+  }
+  .flight-item {
+    
+    text-align: center;
+    
+  }
+ }
